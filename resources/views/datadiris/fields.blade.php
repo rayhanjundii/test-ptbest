@@ -25,18 +25,10 @@
 <!-- Jenis Kelamin Field -->
 <div class="form-group col-sm-12">
     {!! Form::label('jenis_kelamin', 'Jenis Kelamin', ['class' => 'form-check-label']) !!}
-    <div class="form-check">
-        <input class="form-check-input" type="radio" name="jenis_kelamin" id="flexRadioDefault1">
-        <label class="form-check-label" for="flexRadioDefault1">
-          Laki-laki
-        </label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="jenis_kelamin" id="flexRadioDefault2" checked>
-        <label class="form-check-label" for="flexRadioDefault2">
-          Perempuan
-        </label>
-      </div>
+    <input type="radio" id="html" name="jenis_kelamin" value="Laki-Laki">
+    <label for="Laki-Laki">Laki-Laki</label><br>
+    <input type="radio" id="css" name="jenis_kelamin" value="Perempuan">
+    <label for="Perempuan">Perempuan</label><br>
 </div>
 
 
