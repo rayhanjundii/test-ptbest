@@ -52,7 +52,7 @@ class datadiri extends Model
         'tempat_tgl_lahir' => 'string',
         'alamat' => 'string',
         'no_telp' => 'integer',
-        'jenis_kelamin' => 'boolean',
+        'jenis_kelamin' => 'string',
         'agama' => 'string',
         'hobi' => 'string'
     ];
